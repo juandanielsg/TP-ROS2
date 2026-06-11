@@ -58,10 +58,11 @@ Vous n'avez pas besoin de vous connecter au robot pour exécuter vos nœuds. Vou
 
 ## 3. Allumer le TurtleBot4
 
-1. Placez le robot **hors** de sa station de recharge.
-2. Appuyez brièvement sur le **bouton central** (grand bouton circulaire sur le dessus). L'anneau de LEDs s'animera et le robot jouera une courte mélodie.
-3. Attendez environ 30 secondes que le Raspberry Pi démarre et que ROS2 soit prêt.
-4. Vous pouvez confirmer que le robot est prêt quand des topics apparaissent dans votre terminal (voir Section 4).
+Placez le robot sur sa station de recharge. Il s'allume automatiquement dès qu'il détecte le contact de charge. L'anneau de LEDs s'animera et le robot jouera une courte mélodie.
+
+Vous pouvez aussi l'allumer hors de la base en appuyant brièvement sur le **bouton central** (grand bouton circulaire sur le dessus).
+
+Attendez environ 30 secondes que le Raspberry Pi démarre et que ROS2 soit prêt. Vous pouvez confirmer que le robot est prêt quand des topics apparaissent dans votre terminal (voir Section 4).
 
 > Lorsque vous avez fini, éteignez toujours le **LIDAR** avant de laisser le robot sans surveillance. Il consomme beaucoup d'énergie et déchargera la batterie même en charge.
 
