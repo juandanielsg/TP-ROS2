@@ -138,18 +138,6 @@ Essayez de déplacer un objet devant le robot et observez la réaction du scan L
 
 ---
 
-## 6. L'évaluation
-
-Sur les trois jours, vous remplirez progressivement un **diaporama** qui documente votre travail. Considérez-le comme un carnet de laboratoire sous forme de présentation.
-
-- Ajoutez **une diapositive par session** au fur et à mesure. Ne laissez pas cela pour le dernier jour.
-- Incluez **des captures d'écran et de courtes vidéos** de vos sorties terminal, de RViz et du robot en mouvement. Ce sont vos principales preuves.
-- La présentation finale (Session 6) dure 15 minutes par groupe. Vous exposerez ce que vous avez fait, ce que vous avez observé et ce que vous avez compris.
-
-Une liste de contrôle détaillant ce qu'il faut capturer à chaque session se trouve dans [evaluation.md](../Session-6/evaluation.md).
-
----
-
 ## Dépannage
 
 | Symptôme | Cause probable |
