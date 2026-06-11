@@ -58,10 +58,11 @@ You do not log into the robot to run your nodes. You write and run them on your 
 
 ## 3. Powering on the TurtleBot4
 
-1. Place the robot **off** its docking station.
-2. Press the **centre button** (large circular button on top) briefly. The ring of LEDs will animate and the robot will play a short melody.
-3. Wait about 30 seconds for the Raspberry Pi to boot and ROS2 to start.
-4. You can confirm the robot is ready when topics appear in your terminal (see Section 4).
+Place the robot on its docking station. It will power on automatically when it detects the charging contact. The ring of LEDs will animate and the robot will play a short melody.
+
+Alternatively, you can power it on off the dock by pressing the **centre button** (large circular button on top) briefly.
+
+Wait about 30 seconds for the Raspberry Pi to boot and ROS2 to start. You can confirm the robot is ready when topics appear in your terminal (see Section 4).
 
 > When you are done, always **turn the LIDAR off** before leaving the robot unattended. It draws significant power and will drain the battery even while charging.
 
