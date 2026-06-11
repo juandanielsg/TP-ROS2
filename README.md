@@ -233,8 +233,6 @@ Lectures/               Notes de session (anglais)
     odometry.md         Odométrie
   Session-5/
     navigation_slam.md  Navigation et SLAM
-  Session-6/
-    evaluation.md       Critères d'évaluation
 
 TPs/                    Notes de session (français)
   Session-1/
@@ -250,6 +248,4 @@ TPs/                    Notes de session (français)
     odometry.md         Odométrie
   Session-5/
     navigation_slam.md  Navigation et SLAM
-  Session-6/
-    evaluation.md       Critères d'évaluation
 ```
