@@ -1,5 +1,7 @@
 # Introduction à ROS2 avec Turtlebot4
 
+> **Note** : La traduction et la vérification de cette documentation ont été réalisées avec l'aide de Claude (Anthropic).
+
 La formation sera conduite avec comme support le robot TurtleBot 4.
 Base de documentation : https://turtlebot.github.io/turtlebot4-user-manual/
 
