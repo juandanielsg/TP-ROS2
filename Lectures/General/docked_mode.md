@@ -1,5 +1,7 @@
 # Docked Mode — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 The TurtleBot4 behaves differently depending on whether it is sitting on its charging dock or not. Understanding these differences avoids a common source of confusion during practical sessions.
 
 ---

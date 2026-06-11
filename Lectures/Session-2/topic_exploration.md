@@ -1,5 +1,7 @@
 # Topic Exploration — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will do:** explore the topics published by your TurtleBot4 using command-line tools, understand what each sensor provides, and publish your first message from the terminal.
 
 ---

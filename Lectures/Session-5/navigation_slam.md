@@ -1,5 +1,7 @@
 # Navigation & SLAM — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will do:** build a map of the environment using SLAM, then use that map to navigate the robot autonomously to any point, and finally combine navigation with the camera to run a photo-taking mission.
 
 ---

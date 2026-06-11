@@ -1,5 +1,7 @@
 # Robot Control — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will do:** drive the TurtleBot4 using the keyboard and the joystick controller, then learn how to read and modify the robot's runtime parameters.
 
 ---

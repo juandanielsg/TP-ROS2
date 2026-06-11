@@ -1,5 +1,7 @@
 # Introduction to ROS — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What this session is about:** a first look at ROS, the robot you will be working with, and the tools you will use throughout the course. By the end you will have powered on a TurtleBot4, visualised its sensors live in RViz, and understood how the pieces fit together.
 
 ---

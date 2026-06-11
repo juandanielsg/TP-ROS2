@@ -1,5 +1,7 @@
 # Evaluation Cheatsheet — Session 6
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 The final session is a **15-minute presentation** that walks through your work over the course. This document helps you prepare it.
 
 ---

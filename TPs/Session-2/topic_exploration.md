@@ -1,5 +1,7 @@
 # Exploration des topics — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que vous allez faire :** explorer les topics publiés par votre TurtleBot4 à l'aide des outils en ligne de commande, comprendre ce que fournit chaque capteur, et publier votre premier message depuis le terminal.
 
 ---

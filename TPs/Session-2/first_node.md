@@ -1,5 +1,7 @@
 # Premier nœud Python — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que vous allez construire :** un nœud ROS2 qui écoute les boutons physiques du TurtleBot et contrôle l'anneau de LEDs en réponse. Il illustre les deux patrons fondamentaux de ROS2 : **s'abonner** à un topic et **publier** sur un topic.
 
 ---

@@ -1,5 +1,7 @@
 # First Python Node — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will build:** a ROS2 node that listens to the TurtleBot's physical buttons and controls the LED ring in response. It demonstrates the two most fundamental ROS2 patterns: **subscribing** to a topic and **publishing** to a topic.
 
 ---

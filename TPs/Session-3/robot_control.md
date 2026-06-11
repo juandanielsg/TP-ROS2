@@ -1,5 +1,7 @@
 # Contrôle du robot — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que vous allez faire :** piloter le TurtleBot4 avec le clavier et la manette, puis apprendre à lire et modifier les paramètres du robot à l'exécution.
 
 ---

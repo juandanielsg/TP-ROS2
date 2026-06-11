@@ -1,5 +1,7 @@
 # Multiple Nodes in One Package
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will learn:** how to add several ROS2 nodes to the same Python package so they can all be run with `ros2 run`, without creating a separate package for each one.
 
 ---
