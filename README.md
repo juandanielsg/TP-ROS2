@@ -316,6 +316,8 @@ Lectures/               Notes de session (anglais)
     odometry.md         Odométrie
   Block-5/
     navigation_slam.md  Navigation et SLAM
+  appendix/
+    appendix.md         Exercices supplémentaires (hors évaluation)
 
 TPs/                    Notes de session (français)
   Bloc-1/
@@ -331,4 +333,6 @@ TPs/                    Notes de session (français)
     odometry.md         Odométrie
   Bloc-5/
     navigation_slam.md  Navigation et SLAM
+  appendix/
+    appendix.md         Exercices supplémentaires (hors évaluation)
 ```
