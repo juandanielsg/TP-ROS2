@@ -1,0 +1,21 @@
+# Personal notes
+vrac.md
+course_notes.md
+intro_ros.md
+intro_ros.tmp.md
+
+# External symlink
+TP_ROS
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# VS Code local settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
