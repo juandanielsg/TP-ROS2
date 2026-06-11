@@ -8,7 +8,7 @@ Notes et exercices des travaux pratiques ROS2 Humble avec le TurtleBot4 Standard
 
 ## Contenu
 
-### `JuanDaniel/` — Sessions en anglais
+### `Lectures/` — Sessions en anglais
 
 | Dossier | Contenu |
 |---------|---------|
@@ -20,7 +20,7 @@ Notes et exercices des travaux pratiques ROS2 Humble avec le TurtleBot4 Standard
 | `Session-6/` | Évaluation finale, grille de notation |
 | `General/` | Fiches de référence (mode amarré, caméra, RQT, nœuds multiples) |
 
-### `JuanDaniel_french/` — Sessions en français
+### `TPs/` — Sessions en français
 
 Même contenu que ci-dessus, traduit en français.
 
