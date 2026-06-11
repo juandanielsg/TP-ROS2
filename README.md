@@ -18,8 +18,39 @@ docker/
   worlds/
     empty.sdf           Monde vide local (sans dépendance réseau)
 
-Lectures/               Notes et exercices de session (anglais)
-TPs/                    Notes et exercices de session (français)
+Lectures/               Notes de session (anglais)
+  Session-1/
+    introduction.md     Prise en main de ROS, TurtleBot4 et RViz
+    ros_architecture.md Patrons de communication : topics, services, actions
+  Session-2/
+    first_node.md       Premier nœud Python (publisher/subscriber)
+    topic_exploration.md Exploration des topics du robot
+    custom_messages.md  Définir ses propres types de messages (exercice contrôleur de pose)
+  Session-3/
+    robot_control.md    Contrôle du robot
+  Session-4/
+    odometry.md         Odométrie
+  Session-5/
+    navigation_slam.md  Navigation et SLAM
+  Session-6/
+    evaluation.md       Critères d'évaluation
+
+TPs/                    Notes de session (français)
+  Session-1/
+    introduction.md     Prise en main de ROS, TurtleBot4 et RViz
+    ros_architecture.md Patrons de communication : topics, services, actions
+  Session-2/
+    first_node.md       Premier nœud Python (publisher/subscriber)
+    topic_exploration.md Exploration des topics du robot
+    custom_messages.md  Définir ses propres types de messages (exercice contrôleur de pose)
+  Session-3/
+    robot_control.md    Contrôle du robot
+  Session-4/
+    odometry.md         Odométrie
+  Session-5/
+    navigation_slam.md  Navigation et SLAM
+  Session-6/
+    evaluation.md       Critères d'évaluation
 scripts/                Scripts utilitaires pour le robot physique
 src/                    Packages ROS2 du workspace (à créer)
 ```
