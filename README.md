@@ -1,4 +1,4 @@
-# TP ROS2 — Simulation TurtleBot4
+# TP ROS2 — TurtleBot4
 
 Dépôt des travaux pratiques ROS2 Humble avec simulation TurtleBot4 Standard sous Ignition Fortress (Gazebo).
 
