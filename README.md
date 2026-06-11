@@ -12,8 +12,8 @@ Notes et exercices des travaux pratiques ROS2 Humble avec le TurtleBot4 Standard
 
 | Dossier | Contenu |
 |---------|---------|
-| `Session-1/` | Introduction à ROS, prise en main du TurtleBot4, premières commandes, RViz |
-| `Session-2/` | Premier nœud Python, publication et abonnement à des topics |
+| `Session-1/` | Introduction à ROS, prise en main du TurtleBot4, premières commandes, RViz ; patrons de communication (topics, services, actions) |
+| `Session-2/` | Premier nœud Python, exploration des topics, messages personnalisés (exercice contrôleur de pose) |
 | `Session-3/` | Contrôle du robot, commandes de vitesse (`/cmd_vel`) |
 | `Session-4/` | Odométrie, repère de référence, transformations TF |
 | `Session-5/` | Navigation autonome et SLAM |
