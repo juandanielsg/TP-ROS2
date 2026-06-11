@@ -226,7 +226,6 @@ Lectures/               Notes de session (anglais)
   Block-2/
     first_node.md       Premier nœud Python (publisher/subscriber)
     topic_exploration.md Exploration des topics du robot
-    custom_messages.md  Définir ses propres types de messages (exercice contrôleur de pose)
   Block-3/
     robot_control.md    Contrôle du robot
   Block-4/
@@ -234,7 +233,9 @@ Lectures/               Notes de session (anglais)
   Block-5/
     navigation_slam.md  Navigation et SLAM
   appendix/
-    appendix.md         Exercices supplémentaires (hors évaluation)
+    custom_messages.md  Messages personnalisés : syntaxe, structure de package
+    take_picture.md     Prendre une photo avec la caméra OAK-D
+    non-evaluable-exercises.md  Exercices supplémentaires (hors évaluation)
 
 TPs/                    Notes de session (français)
   Bloc-1/
@@ -243,7 +244,6 @@ TPs/                    Notes de session (français)
   Bloc-2/
     first_node.md       Premier nœud Python (publisher/subscriber)
     topic_exploration.md Exploration des topics du robot
-    custom_messages.md  Définir ses propres types de messages (exercice contrôleur de pose)
   Bloc-3/
     robot_control.md    Contrôle du robot
   Bloc-4/
@@ -251,5 +251,7 @@ TPs/                    Notes de session (français)
   Bloc-5/
     navigation_slam.md  Navigation et SLAM
   appendix/
-    appendix.md         Exercices supplémentaires (hors évaluation)
+    custom_messages.md  Messages personnalisés : syntaxe, structure de package
+    take_picture.md     Prendre une photo avec la caméra OAK-D
+    non-evaluable-exercises.md  Exercices supplémentaires (hors évaluation)
 ```
