@@ -138,18 +138,6 @@ Try moving an object in front of the robot and watch the LIDAR scan react in rea
 
 ---
 
-## 6. The evaluation
-
-Over the three days you will progressively fill in a **slide deck** that documents your work. Think of it as a lab notebook in presentation form.
-
-- Add **one slide per session** as you go. Do not leave it to the last day.
-- Include **screenshots and short videos** of your terminal output, RViz, and the robot moving. These are your main evidence.
-- The final presentation (Session 6) is 15 minutes per group. You will walk through what you did, what you observed, and what you understood.
-
-A detailed checklist of what to capture each session is in [evaluation.md](../Session-6/evaluation.md).
-
----
-
 ## Troubleshooting
 
 | Symptom | Likely cause |
