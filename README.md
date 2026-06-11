@@ -303,32 +303,32 @@ Les dossiers `Lectures/` et `TPs/` contiennent des supports développés comme e
 
 ```
 Lectures/               Notes de session (anglais)
-  Session-1/
+  Block-1/
     introduction.md     Prise en main de ROS, TurtleBot4 et RViz
     ros_architecture.md Patrons de communication : topics, services, actions
-  Session-2/
+  Block-2/
     first_node.md       Premier nœud Python (publisher/subscriber)
     topic_exploration.md Exploration des topics du robot
     custom_messages.md  Définir ses propres types de messages (exercice contrôleur de pose)
-  Session-3/
+  Block-3/
     robot_control.md    Contrôle du robot
-  Session-4/
+  Block-4/
     odometry.md         Odométrie
-  Session-5/
+  Block-5/
     navigation_slam.md  Navigation et SLAM
 
 TPs/                    Notes de session (français)
-  Session-1/
+  Bloc-1/
     introduction.md     Prise en main de ROS, TurtleBot4 et RViz
     ros_architecture.md Patrons de communication : topics, services, actions
-  Session-2/
+  Bloc-2/
     first_node.md       Premier nœud Python (publisher/subscriber)
     topic_exploration.md Exploration des topics du robot
     custom_messages.md  Définir ses propres types de messages (exercice contrôleur de pose)
-  Session-3/
+  Bloc-3/
     robot_control.md    Contrôle du robot
-  Session-4/
+  Bloc-4/
     odometry.md         Odométrie
-  Session-5/
+  Bloc-5/
     navigation_slam.md  Navigation et SLAM
 ```
