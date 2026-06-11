@@ -1,5 +1,7 @@
 # Aide-mémoire pour l'évaluation — Session 6
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 La dernière session est une **présentation de 15 minutes** qui retrace votre travail tout au long du cours. Ce document vous aide à la préparer.
 
 ---

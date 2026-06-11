@@ -1,5 +1,7 @@
 # Taking a Picture — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will build:** a ROS2 node that captures a photo from the TurtleBot4's camera and saves it to disk whenever it receives a message on a trigger topic. It combines the subscriber pattern from Session 2 with image handling via `cv_bridge`.
 
 ---

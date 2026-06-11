@@ -1,5 +1,7 @@
 # rqt — Outils de débogage graphiques
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que c'est :** une collection de plugins graphiques pour inspecter et interagir avec un système ROS2 en fonctionnement. Chaque outil complète les outils en ligne de commande que vous connaissez déjà, en présentant les mêmes informations dans une interface plus facile à parcourir.
 
 ---

@@ -1,5 +1,7 @@
 # rqt — Graphical Debugging Tools
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What it is:** a collection of GUI plugins for inspecting and interacting with a running ROS2 system. Each tool complements the command-line tools you already know, presenting the same information in a more browsable interface.
 
 ---

@@ -1,5 +1,7 @@
 # Prendre une photo — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que vous allez construire :** un nœud ROS2 qui capture une photo depuis la caméra du TurtleBot4 et la sauvegarde sur le disque chaque fois qu'il reçoit un message sur un topic de déclenchement. Il combine le patron d'abonnement de la Session 2 avec la gestion d'images via `cv_bridge`.
 
 ---

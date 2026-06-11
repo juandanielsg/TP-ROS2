@@ -1,5 +1,7 @@
 # OAK-D Camera Nodes Missing — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 If the `oakd` topics (e.g. `/tbot<N>/oakd/rgb/preview/image_raw`) do not appear in `ros2 topic list`, or RViz shows no image, work through the checks below **in order**. Most of the time the cause is one of the first two.
 
 ---

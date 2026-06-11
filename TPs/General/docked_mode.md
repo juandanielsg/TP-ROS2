@@ -1,5 +1,7 @@
 # Mode amarré — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 Le TurtleBot4 se comporte différemment selon qu'il est posé sur sa station d'accueil ou non. Comprendre ces différences permet d'éviter une source fréquente de confusion lors des séances pratiques.
 
 ---

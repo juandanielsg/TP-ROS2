@@ -1,5 +1,7 @@
 # Odométrie — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que vous allez apprendre :** ce qu'est l'odométrie, comment fonctionne le topic `/odom`, comment lire la position et l'orientation du robot à partir de celui-ci, et comment l'utiliser dans un nœud.
 
 ---

@@ -1,5 +1,7 @@
 # Plusieurs nœuds dans un même package
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Ce que vous allez apprendre :** comment ajouter plusieurs nœuds ROS2 à un même package Python afin de pouvoir tous les lancer avec `ros2 run`, sans créer un package séparé pour chacun.
 
 ---

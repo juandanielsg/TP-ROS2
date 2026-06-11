@@ -1,5 +1,7 @@
 # Odometry — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **What you will learn:** what odometry is, how the `/odom` topic works, how to read the robot's position and orientation from it, and how to use it in a node.
 
 ---

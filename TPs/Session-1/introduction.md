@@ -1,5 +1,7 @@
 # Introduction à ROS — TurtleBot4
 
+*Juan Daniel S. G. — [juandanielsg.eu](https://juandanielsg.eu)*
+
 **Objectif de la session :** une première prise en main de ROS, du robot et des outils utilisés tout au long du cours. À la fin de cette session, vous aurez mis en marche un TurtleBot4, visualisé ses capteurs en direct dans RViz, et compris comment les différentes pièces s'articulent.
 
 ---
