@@ -18,8 +18,8 @@ docker/
   worlds/
     empty.sdf           Monde vide local (sans dépendance réseau)
 
-JuanDaniel/             Notes et exercices de session (anglais)
-JuanDaniel_french/      Notes et exercices de session (français)
+Lectures/               Notes et exercices de session (anglais)
+TPs/                    Notes et exercices de session (français)
 scripts/                Scripts utilitaires pour le robot physique
 src/                    Packages ROS2 du workspace (à créer)
 ```
