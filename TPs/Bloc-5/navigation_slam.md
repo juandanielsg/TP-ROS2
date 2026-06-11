@@ -85,111 +85,9 @@ ros2 launch turtlebot4_navigation nav2.launch.py \
 
 Dans RViz, utilisez l'outil **Nav2 Goal** (icône flèche dans la barre d'outils) pour cliquer sur une destination sur la carte. Cliquez une fois pour définir la position, faites glisser pour définir l'orientation. Le robot planifiera un chemin et s'y rendra de façon autonome.
 
-### Envoyer un objectif de navigation par programmation
-
-La pile de navigation expose une action `NavigateToPose`. La façon la plus simple de l'utiliser en Python est via la bibliothèque `nav2_simple_commander` :
-
-```python
-from geometry_msgs.msg import PoseStamped
-from nav2_simple_commander.robot_navigator import BasicNavigator
-import rclpy
-
-
-def main():
-    rclpy.init()
-    navigator = BasicNavigator(namespace='tbot<N>')
-
-    # Wait for Nav2 to be ready before sending any goal
-    navigator.waitUntilNav2Active()
-
-    # Build the target pose in the map frame
-    goal = PoseStamped()
-    goal.header.frame_id = 'map'
-    goal.header.stamp = navigator.get_clock().now().to_msg()
-    goal.pose.position.x = 1.0    # metres from the map origin
-    goal.pose.position.y = 0.5
-    goal.pose.orientation.w = 1.0  # facing forward (no rotation)
-
-    navigator.goToPose(goal)
-
-    # Block until the robot reaches the goal or fails
-    while not navigator.isTaskComplete():
-        pass
-
-    print('Goal reached.')
-    rclpy.shutdown()
-
-
-if __name__ == '__main__':
-    main()
-```
-
-Ajoutez `nav2_simple_commander` à votre `package.xml` :
-
-```xml
-<depend>nav2_simple_commander</depend>
-```
-
 ---
 
-## 4. Mission — Naviguer et prendre une photo
-
-En combinant la navigation avec le nœud `camera_snapshot` de `take_picture.md`, vous pouvez envoyer le robot à n'importe quel point de la carte et déclencher une photo à l'arrivée.
-
-Lancez le nœud de capture dans un terminal :
-
-```bash
-ros2 run turtlebot4_python_tutorials camera_snapshot --ros-args -r __ns:=/tbot<N>
-```
-
-Puis étendez le nœud de navigation pour publier sur `take_picture` une fois l'objectif atteint :
-
-```python
-from geometry_msgs.msg import PoseStamped
-from nav2_simple_commander.robot_navigator import BasicNavigator
-from std_msgs.msg import Empty
-import rclpy
-from rclpy.qos import QoSProfile
-
-
-def main():
-    rclpy.init()
-    navigator = BasicNavigator(namespace='tbot<N>')
-
-    # Publisher on the snapshot trigger topic (same namespace as the robot)
-    trigger_pub = navigator.create_publisher(
-        Empty, '/tbot<N>/take_picture', QoSProfile(depth=1))
-
-    navigator.waitUntilNav2Active()
-
-    goal = PoseStamped()
-    goal.header.frame_id = 'map'
-    goal.header.stamp = navigator.get_clock().now().to_msg()
-    goal.pose.position.x = 1.0
-    goal.pose.position.y = 0.5
-    goal.pose.orientation.w = 1.0
-
-    navigator.goToPose(goal)
-
-    while not navigator.isTaskComplete():
-        pass
-
-    # Trigger the snapshot once the robot has stopped at the goal
-    trigger_pub.publish(Empty())
-    navigator.get_logger().info('Goal reached; photo triggered.')
-
-    rclpy.shutdown()
-
-
-if __name__ == '__main__':
-    main()
-```
-
-> Le nœud de capture et le nœud de navigation sont indépendants et ne communiquent qu'à travers le topic `take_picture`. Vous pouvez remplacer l'un ou l'autre sans modifier le second.
-
----
-
-## 5. Exercices
+## 4. Exercices
 
 **Exercice 1 — Construire une carte**
 
@@ -198,14 +96,6 @@ Lancez le SLAM et conduisez le robot jusqu'à ce que la carte couvre toute la zo
 **Exercice 2 — Naviguer vers un point**
 
 Lancez la navigation avec votre carte sauvegardée. Utilisez l'outil de goal RViz pour envoyer le robot vers trois positions différentes. Observez le chemin planifié : prend-il toujours le chemin le plus court ?
-
-**Exercice 3 — Naviguer par programmation**
-
-Écrivez un nœud utilisant `BasicNavigator` qui fait parcourir au robot une séquence de waypoints. Le robot doit visiter chaque point dans l'ordre et journaliser son arrivée à chacun.
-
-**Exercice 4 — Mission photo**
-
-Étendez l'Exercice 3 pour que le robot prenne une photo à chaque waypoint avant de passer au suivant.
 
 ---
 
@@ -218,4 +108,3 @@ Lancez la navigation avec votre carte sauvegardée. Utilisez l'outil de goal RVi
 | `map_saver_cli` sauvegarde une carte vide | La carte n'est pas encore peuplée ; explorez davantage avant de sauvegarder |
 | Nav2 refuse de planifier un chemin | L'objectif est dans un obstacle ou une zone inconnue ; choisissez une zone clairement blanche sur la carte |
 | `waitUntilNav2Active()` bloque indéfiniment | Nav2 n'est pas entièrement démarré ; attendez plus longtemps ou vérifiez les erreurs avec `ros2 node list` |
-| La photo n'est pas sauvegardée après la mission | Le nœud `camera_snapshot` n'est pas lancé, ou le namespace de `take_picture` ne correspond pas |
